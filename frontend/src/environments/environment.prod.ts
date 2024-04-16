@@ -4,8 +4,8 @@
  */
 
 export const environment = {
-  production: false,
-  hostServer: 'http://localhost:3000',
+  production: true,
+  hostServer: '.',
   V8mLzKlIQ: 'AWS_SEC',
   V8mAbCdEfGhIQ: 'R45TfYhS12LpQwE67uDv',
   V8mIjKlMnOpIQ: '9JhGfT45Kl23PqRmNbDc',
