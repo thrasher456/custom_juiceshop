@@ -128,6 +128,8 @@ import { OrderHistoryService } from './Services/order-history.service'
 import { DeliveryMethodComponent } from './delivery-method/delivery-method.component'
 import { DeliveryService } from './Services/delivery.service'
 import { PhotoWallComponent } from './photo-wall/photo-wall.component'
+import {NewsComponent} from './news/news.component'
+import {MyCustomJSModal} from './MyCustomJS/MyCustomJSModal'
 import { PhotoWallService } from './Services/photo-wall.service'
 import { DeluxeUserComponent } from './deluxe-user/deluxe-user.component'
 import { AccountingGuard, AdminGuard, DeluxeGuard, LoginGuard } from './app.guard'
@@ -200,6 +202,7 @@ export function HttpLoaderFactory (http: HttpClient) {
     OrderHistoryComponent,
     DeliveryMethodComponent,
     PhotoWallComponent,
+    NewsComponent,
     DeluxeUserComponent,
     FeedbackDetailsComponent,
     CodeSnippetComponent,

@@ -53,7 +53,7 @@ module.exports = function login () {
           res.status(401).send(res.__('Invalid email or password.'))
         }
       }).catch((error: Error) => {
-        next(error)
+        next(error)x
       })
   }
   // vuln-code-snippet end loginAdminChallenge loginBenderChallenge loginJimChallenge

@@ -222,6 +222,22 @@
       {{"LABEL_PHOTO_WALL" | translate}}
     </span>
   </a>
+  <a mat-list-item routerLink="/news" (click)="onToggleSidenav()" aria-label="Go to news">
+    <i class="material-icons">
+      announcement
+    </i>
+    <span class="menu-text truncate">
+      {{"News" | translate}}
+    </span>
+  </a>  
+  <a mat-list-item routerLink="/debugjs" (click)="onToggleSidenav()" aria-label="Try to debug JS">
+    <i class="material-icons">
+      alarm
+    </i>
+    <span class="menu-text truncate">
+      {{"Debug JS" | translate}}
+    </span>
+  </a>  
   <a mat-list-item *ngIf="isLoggedIn()" routerLink="/deluxe-membership" (click)="onToggleSidenav()" aria-label="Go to deluxe membership page">
     <i class="material-icons">
       card_membership

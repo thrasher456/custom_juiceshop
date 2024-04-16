@@ -39,6 +39,8 @@ import { WalletComponent } from './wallet/wallet.component'
 import { OrderHistoryComponent } from './order-history/order-history.component'
 import { DeliveryMethodComponent } from './delivery-method/delivery-method.component'
 import { PhotoWallComponent } from './photo-wall/photo-wall.component'
+import { NewsComponent } from './news/news.component'
+import { MyCustomJSModal } from './MyCustomJS/MyCustomJSModal'
 import { DeluxeUserComponent } from './deluxe-user/deluxe-user.component'
 import { AccountingGuard, AdminGuard, LoginGuard } from './app.guard'
 import { NFTUnlockComponent } from './nft-unlock/nft-unlock.component'
@@ -122,6 +124,14 @@ const routes: Routes = [
   {
     path: 'photo-wall',
     component: PhotoWallComponent
+  },
+  {
+    path: 'news',
+    component: NewsComponent
+  },
+  {
+    path: 'debugjs',
+    component: MyCustomJSModal
   },
   {
     path: 'complain',
